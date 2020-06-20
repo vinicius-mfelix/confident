@@ -22,7 +22,9 @@
 
 ### Como rodar a aplicação:
 
-O projeto está em formato MVC, portanto, é apenas necessário importar o projeto Gradle diretamente na IDE e alterar o ```appliaction.properties``` informando seu acesso para o usuário e senha referentes ao Oracle da FIAP.
+O projeto está em formato MVC, portanto, é apenas necessário importar o projeto Gradle diretamente na IDE e alterar o ```appliaction.properties``` informando seu acesso para o usuário e senha referentes ao Oracle da FIAP nas propriedades: 
+```spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha```
 
 ### Acessar a aplicação
 
